@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construencar | Construcción de Viviendas en Ecuador</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #1f3c88;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+    .btn-whatsapp {
+      display: inline-block;
+      margin-top: 20px;
+      background: #25d366;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #1f3c88;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .services, .prices {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1f3c88;
+    }
+    footer {
+      background: #1f3c88;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      padding: 15px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Construencar</h1>
+  <p>Construimos hogares con calidad y confianza en todo el Ecuador</p>
+  <a class="btn-whatsapp" href="https://wa.me/593980083270" target="_blank">Cotiza por WhatsApp</a>
+</header>
+
+<section>
+  <h2>¿Quiénes Somos?</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    Somos una empresa con base en Cuenca, Azuay, especializada en construcción residencial, diseño arquitectónico moderno y acabados de primera. Atendemos proyectos en todas las ciudades del Ecuador, garantizando calidad, responsabilidad y confianza.
+  </p>
+</section>
+
+<section>
+  <h2>Nuestros Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Construcción de Viviendas</h3>
+      <p>Casas modernas, seguras y funcionales, adaptadas a tu presupuesto.</p>
+    </div>
+    <div class="card">
+      <h3>Diseño Arquitectónico</h3>
+      <p>Diseños personalizados con estilo moderno y eficiente.</p>
+    </div>
+    <div class="card">
+      <h3>Remodelaciones</h3>
+      <p>Mejoramos y renovamos tus espacios existentes.</p>
+    </div>
+    <div class="card">
+      <h3>Acabados de Primera</h3>
+      <p>Detalles de alta presentación y excelente calidad.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Precios Referenciales</h2>
+  <div class="prices">
+    <div class="card">
+      <h3>Casa de 1 Piso</h3>
+      <p><strong>Desde $35.000</strong></p>
+      <p>Diseño funcional, construcción sólida y acabados de calidad.</p>
+    </div>
+    <div class="card">
+      <h3>Casa de 2 Pisos</h3>
+      <p><strong>Precio según diseño</strong></p>
+      <p>Proyecto personalizado según tus necesidades.</p>
+    </div>
+    <div class="card">
+      <h3>Proyectos a Medida</h3>
+      <p><strong>Cotización personalizada</strong></p>
+      <p>Adaptamos el diseño y presupuesto a tu idea.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Área de Cobertura</h2>
+  <p style="text-align:center;">
+    Atendemos proyectos de construcción <strong>a nivel nacional</strong>, en todas las ciudades del Ecuador.
+  </p>
+</section>
+
+<footer>
+  <p><strong>Contacto:</strong> WhatsApp 098 008 3270</p>
+  <p>Base: Cuenca, Azuay | Servicio a nivel nacional</p>
+  <p>© 2026 Construencar</p>
+</footer>
+
+<a class="floating-whatsapp" href="https://wa.me/593980083270" target="_blank">WhatsApp</a>
+
+</body>
+</html>
